@@ -1,0 +1,10 @@
+# rails
+db/*.sqlite3
+log/*.log
+tmp/**/*
+*/lib/*
+
+# java
+.project
+.classpath
+
