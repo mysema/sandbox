@@ -7,7 +7,7 @@ public class DogServiceImpl implements DogService {
     @Override
     public List<Dog> findMany(String name) {
         System.err.println("Search for dogs named: " + name);
-        return Arrays.asList(new Dog(name), new Dog("error_dog"));
+        return Arrays.asList(new Dog(name), new Dog("Und muutettu"), new Dog(getClass().getClassLoader().getClass().getName()));
     }
 
     @Override

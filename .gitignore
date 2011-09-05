@@ -8,3 +8,5 @@ tmp/**/*
 .project
 .classpath
 
+porthos/target
+porthos/.settings

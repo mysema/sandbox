@@ -1,0 +1,13 @@
+To run development system with JRebel do following:
+
+Start jruby nailgun with JRebel:
+jruby --ng-server -J-javaagent:/Applications/ZeroTurnaround/JRebel/jrebel.jar -J-noverify
+
+
+Compile porthos with maven to generate JRebel xml:
+porthos: mvn compile
+
+Start rails with jruby:
+jruby --ng -S rails server
+
+And now the JRebel should work!
