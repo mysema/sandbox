@@ -8,6 +8,7 @@ public class ServiceModule extends AbstractModule {
     @Override
     protected void configure() {
         bind(DogService.class).to(DogServiceImpl.class);
+        bind(CatService.class).to(CatServiceImpl.class);
     }
 
     public Injector getInjector() {

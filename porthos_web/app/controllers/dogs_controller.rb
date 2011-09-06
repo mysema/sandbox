@@ -6,6 +6,6 @@ class DogsController < ApplicationController
   end
 
   def index
-    @dogs = @dog_service.find_many('fido')
+    @dogs = @dog_service.find_many("fido")
   end
 end
