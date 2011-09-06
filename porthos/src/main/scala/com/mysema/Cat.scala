@@ -1,5 +1,3 @@
 package com.mysema
 
-class Cat(val name: String) {
-
-}
+case class Cat(name: String)
